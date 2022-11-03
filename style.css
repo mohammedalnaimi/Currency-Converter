@@ -1,4 +1,8 @@
-
+h1 {
+  background-color: white;
+  text-align: center;
+  margin: 20px;
+}
 .program {
   width: 600px;
   margin: auto;
