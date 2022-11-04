@@ -20,9 +20,6 @@ p {
   font-size: 18px;
   margin: 0 0 15px;
 }
-/* p span {
-  font-weight: bold;
-} */
 form {
   display: flex;
   justify-content: space-between;
@@ -39,7 +36,6 @@ form input {
 form .button {
   background-color: rgb(82, 176, 114);
   color: white;
-  margin-left: 10px;
   font-size: 16px;
   padding: 8px 10px;
   border-radius: 5px;
@@ -51,6 +47,5 @@ form .button {
 }
 .price div {
   font-size: 18px;
-  /* font-weight: bold; */
   margin-top: 10px;
 }
