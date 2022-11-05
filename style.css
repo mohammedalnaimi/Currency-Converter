@@ -1,18 +1,20 @@
 h1 {
   background-color: white;
-  text-align: center;
-  margin: 15px;
+  margin-top: -10px;
 }
 .program {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  transform: translateX(-50px);
+  transform: translateY(-50px);
 }
 .container {
   width: 350px;
   background-color: #1787e0;
   color: white;
-  margin: auto;
   padding: 15px;
   border-radius: 8px;
 }
@@ -24,7 +26,7 @@ form {
   display: flex;
   justify-content: space-between;
 }
-form input {
+form input[type="number"] {
   outline: none;
   font-size: 20px;
   border: none;
@@ -38,8 +40,9 @@ form .button {
   color: white;
   font-size: 16px;
   padding: 8px 10px;
-  border-radius: 5px;
   font-weight: bold;
+  border: none;
+  border-radius: 5px;
 }
 .price {
   width: fit-content;

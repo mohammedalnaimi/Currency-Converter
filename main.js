@@ -14,6 +14,6 @@ fetch(
 
   button.onclick = function () {
   priceOne.innerHTML = parseFloat(document.getElementById("amount").value * currency.rates["TRY"]).toFixed(2)
-  priceTwo.innerHTML = Math.floor(document.getElementById("amount").value * currency.rates["IQD"])
+  priceTwo.innerHTML = Math.floor(document.getElementById("amount").value * currency.rates["IQD"]).toFixed(2)
   }
 });
