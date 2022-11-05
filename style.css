@@ -38,7 +38,6 @@ form input[type="number"] {
   font-size: 20px;
   border: none;
   border-radius: 5px;
-  outline: none;
   caret-color: #1787e0;
   padding: 10px;
 }
